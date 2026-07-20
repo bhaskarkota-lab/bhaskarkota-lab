@@ -1,0 +1,15 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer">
+  <rect width="1200" height="140" fill="#131F3A"/>
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="#B8860B" stroke-width="1" opacity="0.55"/>
+  <line x1="0" y1="120" x2="1200" y2="120" stroke="#B8860B" stroke-width="1" opacity="0.55"/>
+
+  <g stroke="#B8860B" stroke-width="1.5" opacity="0.8">
+    <path d="M28 20 L28 40 M20 32 L40 32"/>
+    <path d="M1172 20 L1172 40 M1160 32 L1180 32"/>
+    <path d="M28 120 L28 100 M20 108 L40 108"/>
+    <path d="M1172 120 L1172 100 M1160 108 L1180 108"/>
+  </g>
+
+  <text x="600" y="72" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#F4EFE6">Building AI for every school.</text>
+  <text x="600" y="98" text-anchor="middle" font-family="Consolas, 'SF Mono', monospace" font-size="12" fill="#7C8CA8" letter-spacing="1">SARVOTTHAM AI · ANDHRA PRADESH, INDIA</text>
+</svg>

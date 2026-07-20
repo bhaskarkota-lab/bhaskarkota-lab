@@ -1,0 +1,67 @@
+<svg width="900" height="500" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sarvottham AI platform modules">
+  <rect width="900" height="500" fill="#131F3A"/>
+
+  <line x1="40" y1="56" x2="860" y2="56" stroke="#B8860B" stroke-width="1" opacity="0.6"/>
+  <text x="40" y="40" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#F4EFE6">Sarvottham AI — Platform Modules</text>
+
+  <!-- 3x2 module cards -->
+  <g font-family="Consolas, 'SF Mono', monospace">
+    <!-- card template repeated with explicit coords -->
+
+    <!-- Row 1 -->
+    <g>
+      <rect x="40" y="90" width="255" height="120" rx="4" fill="none" stroke="#B8860B" stroke-width="1" opacity="0.7"/>
+      <circle cx="60" cy="112" r="5" fill="#0B6E4F"/>
+      <text x="76" y="117" font-size="15" fill="#F4EFE6" letter-spacing="1">AI TUTOR</text>
+      <text x="60" y="150" font-size="12.5" fill="#9FB0C8" font-family="Helvetica, Arial, sans-serif">Personalized, curriculum-grounded</text>
+      <text x="60" y="168" font-size="12.5" fill="#9FB0C8" font-family="Helvetica, Arial, sans-serif">tutoring across six learning styles</text>
+    </g>
+
+    <g>
+      <rect x="322" y="90" width="255" height="120" rx="4" fill="none" stroke="#B8860B" stroke-width="1" opacity="0.7"/>
+      <circle cx="342" cy="112" r="5" fill="#0B6E4F"/>
+      <text x="358" y="117" font-size="15" fill="#F4EFE6" letter-spacing="1">VOICE ASSISTANT</text>
+      <text x="342" y="150" font-size="12.5" fill="#9FB0C8" font-family="Helvetica, Arial, sans-serif">Bilingual Telugu / English</text>
+      <text x="342" y="168" font-size="12.5" fill="#9FB0C8" font-family="Helvetica, Arial, sans-serif">interaction for students and parents</text>
+    </g>
+
+    <g>
+      <rect x="604" y="90" width="255" height="120" rx="4" fill="none" stroke="#B8860B" stroke-width="1" opacity="0.7"/>
+      <circle cx="624" cy="112" r="5" fill="#0B6E4F"/>
+      <text x="640" y="117" font-size="15" fill="#F4EFE6" letter-spacing="1">VISION AI</text>
+      <text x="624" y="150" font-size="12.5" fill="#9FB0C8" font-family="Helvetica, Arial, sans-serif">QR + OMR exam sheets, scored</text>
+      <text x="624" y="168" font-size="12.5" fill="#9FB0C8" font-family="Helvetica, Arial, sans-serif">via AI-assisted correction</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g>
+      <rect x="40" y="230" width="255" height="120" rx="4" fill="none" stroke="#B8860B" stroke-width="1" opacity="0.7"/>
+      <circle cx="60" cy="252" r="5" fill="#0B6E4F"/>
+      <text x="76" y="257" font-size="15" fill="#F4EFE6" letter-spacing="1">ANALYTICS</text>
+      <text x="60" y="290" font-size="12.5" fill="#9FB0C8" font-family="Helvetica, Arial, sans-serif">Attendance, performance, and</text>
+      <text x="60" y="308" font-size="12.5" fill="#9FB0C8" font-family="Helvetica, Arial, sans-serif">school-level education analytics</text>
+    </g>
+
+    <g>
+      <rect x="322" y="230" width="255" height="120" rx="4" fill="none" stroke="#B8860B" stroke-width="1" opacity="0.7"/>
+      <circle cx="342" cy="252" r="5" fill="#0B6E4F"/>
+      <text x="358" y="257" font-size="15" fill="#F4EFE6" letter-spacing="1">RAG ENGINE</text>
+      <text x="342" y="290" font-size="12.5" fill="#9FB0C8" font-family="Helvetica, Arial, sans-serif">Retrieval over AP SCERT textbooks,</text>
+      <text x="342" y="308" font-size="12.5" fill="#9FB0C8" font-family="Helvetica, Arial, sans-serif">indexed in ChromaDB</text>
+    </g>
+
+    <g>
+      <rect x="604" y="230" width="255" height="120" rx="4" fill="none" stroke="#B8860B" stroke-width="1" opacity="0.7"/>
+      <circle cx="624" cy="252" r="5" fill="#0B6E4F"/>
+      <text x="640" y="257" font-size="15" fill="#F4EFE6" letter-spacing="1">SCHOOL &amp; GOV OPS</text>
+      <text x="624" y="290" font-size="12.5" fill="#9FB0C8" font-family="Helvetica, Arial, sans-serif">Role-based dashboards through</text>
+      <text x="624" y="308" font-size="12.5" fill="#9FB0C8" font-family="Helvetica, Arial, sans-serif">MEO / DEO / State oversight</text>
+    </g>
+  </g>
+
+  <line x1="40" y1="392" x2="860" y2="392" stroke="#B8860B" stroke-width="1" opacity="0.4"/>
+  <text x="40" y="420" font-family="Consolas, 'SF Mono', monospace" font-size="13" fill="#7C8CA8" letter-spacing="1">SIX ROLES</text>
+  <text x="40" y="446" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#9FB0C8">Student · Class Teacher · Subject Teacher · Parent · School · Government</text>
+
+  <text x="40" y="480" font-family="Consolas, 'SF Mono', monospace" font-size="12" fill="#5C6C87">React / Next.js · Node.js / Express · PostgreSQL · ChromaDB · Gemini API</text>
+</svg>

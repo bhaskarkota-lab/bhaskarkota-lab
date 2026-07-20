@@ -1,0 +1,46 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sarvottham AI roadmap">
+  <rect width="1000" height="260" fill="#131F3A"/>
+  <text x="40" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#F4EFE6">Roadmap</text>
+  <text x="40" y="64" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7C8CA8">Filled marks are done; open marks are ahead — read the way an answer sheet is scored.</text>
+
+  <!-- axis -->
+  <line x1="60" y1="150" x2="940" y2="150" stroke="#B8860B" stroke-width="1.4" opacity="0.7"/>
+
+  <!-- milestones: alternating label above/below -->
+  <g font-family="Consolas, 'SF Mono', monospace" font-size="12" fill="#F4EFE6">
+
+    <!-- MVP - done -->
+    <circle cx="140" cy="150" r="9" fill="#0B6E4F" stroke="#0B6E4F"/>
+    <text x="140" y="120" text-anchor="middle">MVP</text>
+    <text x="140" y="180" text-anchor="middle" fill="#7C8CA8" font-size="11">2026</text>
+
+    <!-- AP pilot readiness - done -->
+    <circle cx="320" cy="150" r="9" fill="#0B6E4F" stroke="#0B6E4F"/>
+    <text x="320" y="180" text-anchor="middle">AP PILOT READY</text>
+    <text x="320" y="200" text-anchor="middle" fill="#7C8CA8" font-size="11">2026</text>
+
+    <!-- Government engagement - in progress, half-filled -->
+    <circle cx="500" cy="150" r="9" fill="none" stroke="#D4A72C" stroke-width="2"/>
+    <path d="M500,141 A9,9 0 0,1 500,159 Z" fill="#D4A72C"/>
+    <text x="500" y="120" text-anchor="middle">GOVT ENGAGEMENT</text>
+    <text x="500" y="100" text-anchor="middle" fill="#7C8CA8" font-size="11">IN PROGRESS</text>
+
+    <!-- State pilot - open -->
+    <circle cx="680" cy="150" r="9" fill="none" stroke="#9FB0C8" stroke-width="1.6"/>
+    <text x="680" y="180" text-anchor="middle" fill="#9FB0C8">STATE PILOT</text>
+    <text x="680" y="200" text-anchor="middle" fill="#5C6C87" font-size="11">2027</text>
+
+    <!-- National expansion - open -->
+    <circle cx="860" cy="150" r="9" fill="none" stroke="#9FB0C8" stroke-width="1.6"/>
+    <text x="860" y="120" text-anchor="middle" fill="#9FB0C8">NATIONAL EXPANSION</text>
+    <text x="860" y="100" text-anchor="middle" fill="#5C6C87" font-size="11">2028+</text>
+  </g>
+
+  <!-- connecting ticks between markers -->
+  <g stroke="#B8860B" stroke-width="1" opacity="0.35">
+    <line x1="149" y1="150" x2="311" y2="150"/>
+    <line x1="329" y1="150" x2="491" y2="150"/>
+    <line x1="509" y1="150" x2="671" y2="150"/>
+    <line x1="689" y1="150" x2="851" y2="150"/>
+  </g>
+</svg>

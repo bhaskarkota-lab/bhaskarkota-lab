@@ -1,0 +1,65 @@
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sarvottham AI system architecture">
+  <rect width="900" height="600" fill="#131F3A"/>
+  <text x="40" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#F4EFE6">System Architecture</text>
+  <line x1="40" y1="56" x2="860" y2="56" stroke="#B8860B" stroke-width="1" opacity="0.6"/>
+
+  <!-- top row: user roles -->
+  <g font-family="Consolas, 'SF Mono', monospace" font-size="12.5" fill="#F4EFE6">
+    <g id="role1"><rect x="55" y="90" width="130" height="44" rx="22" fill="none" stroke="#0B6E4F" stroke-width="1.3"/><text x="120" y="117" text-anchor="middle">STUDENTS</text></g>
+    <g id="role2"><rect x="210" y="90" width="130" height="44" rx="22" fill="none" stroke="#0B6E4F" stroke-width="1.3"/><text x="275" y="117" text-anchor="middle">TEACHERS</text></g>
+    <g id="role3"><rect x="365" y="90" width="130" height="44" rx="22" fill="none" stroke="#0B6E4F" stroke-width="1.3"/><text x="430" y="117" text-anchor="middle">PARENTS</text></g>
+    <g id="role4"><rect x="520" y="90" width="130" height="44" rx="22" fill="none" stroke="#0B6E4F" stroke-width="1.3"/><text x="585" y="117" text-anchor="middle">SCHOOLS</text></g>
+    <g id="role5"><rect x="675" y="90" width="170" height="44" rx="22" fill="none" stroke="#0B6E4F" stroke-width="1.3"/><text x="760" y="117" text-anchor="middle">GOVERNMENT</text></g>
+  </g>
+
+  <!-- connectors down to core -->
+  <g stroke="#B8860B" stroke-width="1" opacity="0.7" fill="none">
+    <path d="M120,134 L120,170 L450,170 L450,200"/>
+    <path d="M275,134 L275,180 L450,180 L450,200"/>
+    <path d="M430,134 L430,200"/>
+    <path d="M585,134 L585,180 L450,180 L450,200"/>
+    <path d="M760,134 L760,170 L450,170 L450,200"/>
+  </g>
+
+  <!-- core -->
+  <rect x="330" y="200" width="240" height="60" rx="4" fill="#1B2A4A" stroke="#D4A72C" stroke-width="1.6"/>
+  <text x="450" y="236" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#D4A72C">SARVOTTHAM AI CORE</text>
+
+  <!-- connectors down to modules -->
+  <g stroke="#B8860B" stroke-width="1" opacity="0.7" fill="none">
+    <path d="M450,260 L450,290 L120,290 L120,320"/>
+    <path d="M450,260 L450,300 L300,300 L300,320"/>
+    <path d="M450,260 L450,320"/>
+    <path d="M450,260 L450,300 L600,300 L600,320"/>
+    <path d="M450,260 L450,290 L780,290 L780,320"/>
+  </g>
+
+  <!-- modules -->
+  <g font-family="Consolas, 'SF Mono', monospace" font-size="12" fill="#F4EFE6">
+    <rect x="55" y="320" width="130" height="46" rx="4" fill="none" stroke="#0B6E4F" stroke-width="1.2"/><text x="120" y="348" text-anchor="middle">AI TUTOR</text>
+    <rect x="235" y="320" width="130" height="46" rx="4" fill="none" stroke="#0B6E4F" stroke-width="1.2"/><text x="300" y="348" text-anchor="middle">VOICE AI</text>
+    <rect x="385" y="320" width="130" height="46" rx="4" fill="none" stroke="#0B6E4F" stroke-width="1.2"/><text x="450" y="348" text-anchor="middle">VISION AI</text>
+    <rect x="535" y="320" width="130" height="46" rx="4" fill="none" stroke="#0B6E4F" stroke-width="1.2"/><text x="600" y="348" text-anchor="middle">ANALYTICS</text>
+    <rect x="715" y="320" width="130" height="46" rx="4" fill="none" stroke="#0B6E4F" stroke-width="1.2"/><text x="780" y="348" text-anchor="middle">RAG ENGINE</text>
+  </g>
+
+  <!-- connectors to data store -->
+  <g stroke="#B8860B" stroke-width="1" opacity="0.7" fill="none">
+    <path d="M120,366 L120,400 L400,400 L400,420"/>
+    <path d="M300,366 L300,410 L400,410 L400,420"/>
+    <path d="M450,366 L450,420"/>
+    <path d="M600,366 L600,410 L500,410 L500,420"/>
+    <path d="M780,366 L780,400 L500,400 L500,420"/>
+  </g>
+
+  <!-- data store, drawn as a ledger cylinder -->
+  <g>
+    <path d="M370,420 a80,14 0 1,0 160,0 a80,14 0 1,0 -160,0" fill="none" stroke="#D4A72C" stroke-width="1.4"/>
+    <path d="M370,420 L370,480 a80,14 0 0,0 160,0 L530,420" fill="#1B2A4A" stroke="#D4A72C" stroke-width="1.4"/>
+    <text x="450" y="456" text-anchor="middle" font-family="Consolas, 'SF Mono', monospace" font-size="12" fill="#F4EFE6">KNOWLEDGE</text>
+    <text x="450" y="470" text-anchor="middle" font-family="Consolas, 'SF Mono', monospace" font-size="12" fill="#F4EFE6">PLATFORM</text>
+  </g>
+
+  <text x="40" y="540" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#9FB0C8">PostgreSQL for structured records · ChromaDB for retrieval over AP SCERT content</text>
+  <line x1="40" y1="560" x2="860" y2="560" stroke="#B8860B" stroke-width="1" opacity="0.4"/>
+</svg>

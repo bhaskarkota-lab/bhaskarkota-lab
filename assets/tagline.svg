@@ -1,0 +1,20 @@
+<svg width="560" height="70" viewBox="0 0 560 70" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Founder, Sarvottham AI">
+  <rect width="560" height="70" fill="none"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="25" fill="#D4A72C">
+    <text x="6" y="45" opacity="0">Founder &amp; CEO, Sarvottham AI
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.20;0.25;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+    </text>
+    <text x="6" y="45" opacity="0">Full-Stack Developer — MERN
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.20;0.25;1" dur="12s" begin="3s" repeatCount="indefinite"/>
+    </text>
+    <text x="6" y="45" opacity="0">AI Education Operating System
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.20;0.25;1" dur="12s" begin="6s" repeatCount="indefinite"/>
+    </text>
+    <text x="6" y="45" opacity="0">B.Sc Computer Science, SRM AP
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.20;0.25;1" dur="12s" begin="9s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <line x1="6" y1="58" x2="220" y2="58" stroke="#B8860B" stroke-width="1" opacity="0.5"/>
+</svg>

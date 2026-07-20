@@ -12,6 +12,31 @@
 
 </div>
 
+<div align="center">
+
+<table>
+<tr>
+<td width="160" align="center">
+<img width="140" src="assets/avatar.svg" alt="Bhaskar Kota"/>
+</td>
+<td valign="middle">
+<strong>Kota Venkat Pavan Adithya Bhaskar</strong><br/>
+<img src="assets/tagline.svg" alt="Founder, Sarvottham AI" height="30"/><br/>
+Rajahmundry, Andhra Pradesh &middot; B.Sc CS, SRM University AP
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+<div align="center">
+
+`Founder` · `Pre-Pilot Stage` · `Rajahmundry, AP, India` · `Building in public`
+
+</div>
+
 <br>
 
 ## About
@@ -27,6 +52,11 @@ analytics.
 - 🌱 Learning: agentic AI systems, RAG pipelines, and applied ML for education
 - 📍 Rajahmundry, Andhra Pradesh, India · B.Sc CS, SRM University AP
 
+**Currently building:**
+<!-- ACTIVITY:START -->
+_Updates automatically — runs on push and every 6 hours._
+<!-- ACTIVITY:END -->
+
 <br>
 
 ## Sarvottham AI
@@ -35,15 +65,21 @@ analytics.
 
 <br>
 
-## System Architecture
+<details>
+<summary><b>See how it's built →</b> system architecture</summary>
+<br>
 
 <img width="100%" src="assets/architecture.svg" alt="Sarvottham AI system architecture"/>
 
+</details>
+
+<details>
+<summary><b>Where this is headed →</b> roadmap</summary>
 <br>
 
-## Roadmap
-
 <img width="100%" src="assets/roadmap.svg" alt="Sarvottham AI roadmap"/>
+
+</details>
 
 <br>
 

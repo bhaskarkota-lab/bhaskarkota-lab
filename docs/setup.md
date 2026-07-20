@@ -42,7 +42,18 @@ your account for the `community` and `habits` plugins):
    `Settings → Secrets and variables → Actions → New repository secret`.
 3. Trigger the workflow once manually to generate the first `assets/metrics.svg`.
 
-## 5. Assets
+## 5. `activity.yml` — self-updating "Currently building" line
+
+Runs on push and every 6 hours. Calls the GitHub API for your most recently
+pushed public repo and rewrites the line between `<!-- ACTIVITY:START -->`
+and `<!-- ACTIVITY:END -->` in `README.md`, then commits if it changed. No
+extra secret needed — the built-in `GITHUB_TOKEN` has enough read access for
+a public-repo listing.
+
+Don't edit the text between those two markers by hand — the next scheduled
+run overwrites it.
+
+## 6. Assets
 
 All visuals live in `assets/` as plain SVG — no external badge services, so
 nothing breaks if a third-party API goes down.
@@ -50,12 +61,25 @@ nothing breaks if a third-party API goes down.
 | File | Used for |
 |---|---|
 | `hero.svg` | Top banner |
+| `avatar.svg` | Animated circular photo — rotating orbit ring, pulsing bubble accents, breathing glow, live status dot |
+| `tagline.svg` | Self-hosted "typing" effect — four role lines cross-fading in a loop, no external service |
 | `ai-dashboard.svg` | Platform module overview |
 | `architecture.svg` | System architecture diagram |
 | `roadmap.svg` | Roadmap timeline |
 | `footer.svg` | Closing banner |
 | `logo.svg` | Small mark, reusable anywhere a favicon-sized logo is needed |
 | `background.svg` | Tileable decorative pattern, kept as a raw asset for reuse outside the README (e.g. a social preview image) |
+
+### Updating the avatar photo
+
+`avatar.svg` has the photo embedded directly as base64 (inside the `<image>`
+tag) rather than linked as a separate file — this keeps it a single
+self-contained SVG. To swap in a new photo:
+
+1. Crop it to a square, centered on the face, and resize to roughly 480×480.
+2. Base64-encode it and replace the string after `data:image/jpeg;base64,`
+   (there are two occurrences in the file — `xlink:href` and `href` — replace
+   both, or a small number of older SVG renderers won't display it).
 
 ### Design tokens
 
@@ -87,7 +111,27 @@ the corner registration marks on the hero/footer.
 Fonts are all system/web-safe on purpose — GitHub's SVG sanitizer strips
 external font imports, so anything else won't render.
 
-## 6. Personalizing
+### Deliberately left out
+
+A larger plan for this profile also proposed `particles.svg`,
+`neural-network.svg`, `timeline.svg`, and a "Founder Metrics" panel
+(Founder Score, Schools Impacted, Vision Progress). Skipped, on purpose:
+
+- **`particles.svg` / `neural-network.svg`** — GitHub markdown can't
+  reliably layer one SVG behind another (no compositing across separate
+  `<img>` tags), so a standalone particle or neural-net file would just be
+  another flat image competing with the avatar's orbit rings for attention
+  rather than sitting behind them. The signature motif (the answer-bubble
+  accents) already carries that role.
+- **`timeline.svg`** — same content as `roadmap.svg`, just renamed.
+- **Founder Metrics with numbers like "Schools Impacted" or a "Founder
+  Score"** — Sarvottham AI is pre-pilot; there's no deployment to report a
+  number for yet. Made-up metrics on a page a government reviewer or
+  investor might actually read is a credibility risk, not a feature. The
+  `Pre-Pilot Stage` status pill under the profile card says the same thing
+  honestly.
+
+## 7. Personalizing
 
 Search-and-replace if you fork this for someone else:
 

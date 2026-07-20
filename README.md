@@ -54,7 +54,7 @@ analytics.
 
 **Currently building:**
 <!-- ACTIVITY:START -->
-_Updates automatically — runs on push and every 6 hours._
+**[bhaskarkota-lab](https://github.com/bhaskarkota-lab/bhaskarkota-lab)** — No description yet _(updated 2026-07-20)_
 <!-- ACTIVITY:END -->
 
 <br>

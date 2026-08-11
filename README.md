@@ -54,7 +54,7 @@ analytics.
 
 **Currently building:**
 <!-- ACTIVITY:START -->
-**[pavan-portfolio](https://github.com/bhaskarkota-lab/pavan-portfolio)** — No description yet _(updated 2026-08-11)_
+**[bhaskarkota-lab](https://github.com/bhaskarkota-lab/bhaskarkota-lab)** — No description yet _(updated 2026-08-11)_
 <!-- ACTIVITY:END -->
 
 <br>

@@ -54,7 +54,7 @@ analytics.
 
 **Currently building:**
 <!-- ACTIVITY:START -->
-**[bhaskarkota-lab](https://github.com/bhaskarkota-lab/bhaskarkota-lab)** — No description yet _(updated 2026-08-12)_
+**[EduGenie](https://github.com/bhaskarkota-lab/EduGenie)** — EduGenie - AI Powered Personalized Learning Assistant using FastAPI, Gemini AI, and Generative AI for Q&A, Quiz Generation, Summarization, and Personalized Learning Paths. _(updated 2026-08-13)_
 <!-- ACTIVITY:END -->
 
 <br>

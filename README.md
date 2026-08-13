@@ -54,7 +54,7 @@ analytics.
 
 **Currently building:**
 <!-- ACTIVITY:START -->
-**[github-history](https://github.com/bhaskarkota-lab/github-history)** — No description yet _(updated 2026-08-13)_
+**[bhaskarkota-lab](https://github.com/bhaskarkota-lab/bhaskarkota-lab)** — No description yet _(updated 2026-08-13)_
 <!-- ACTIVITY:END -->
 
 <br>

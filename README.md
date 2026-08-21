@@ -54,7 +54,7 @@ analytics.
 
 **Currently building:**
 <!-- ACTIVITY:START -->
-**[rag-pipline](https://github.com/bhaskarkota-lab/rag-pipline)** — No description yet _(updated 2026-08-21)_
+**[bhaskarkota-lab](https://github.com/bhaskarkota-lab/bhaskarkota-lab)** — No description yet _(updated 2026-08-21)_
 <!-- ACTIVITY:END -->
 
 <br>

@@ -54,7 +54,7 @@ analytics.
 
 **Currently building:**
 <!-- ACTIVITY:START -->
-**[bhaskarkota-lab](https://github.com/bhaskarkota-lab/bhaskarkota-lab)** — No description yet _(updated 2026-09-04)_
+**[recoup](https://github.com/bhaskarkota-lab/recoup)** — No description yet _(updated 2026-09-04)_
 <!-- ACTIVITY:END -->
 
 <br>

@@ -54,7 +54,7 @@ analytics.
 
 **Currently building:**
 <!-- ACTIVITY:START -->
-**[bhaskarkota-lab](https://github.com/bhaskarkota-lab/bhaskarkota-lab)** — No description yet _(updated 2026-11-02)_
+**[system-resource-monitor](https://github.com/bhaskarkota-lab/system-resource-monitor)** — Real-Time Windows System Resource Monitoring Dashboard _(updated 2026-11-03)_
 <!-- ACTIVITY:END -->
 
 <br>
